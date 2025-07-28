@@ -8,12 +8,14 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 10%;
+    margin: 10% 16%;
 
 }
 .apresentacao__conteudo{
+    display:flex;
     width: 615px;
-
+    flex-direction: column;
+    gap: 40px;
     
 }
 .apresentacao__conteudo__titulo{
@@ -49,7 +51,7 @@
 
 }
 body{
-    background-color: black;
+    background-color: black; /*  */
     height: 100vh;
     box-sizing: border-box;
     color: #f6f6f6;
