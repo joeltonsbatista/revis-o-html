@@ -8,7 +8,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 10% 16%;
+    padding: 8% 16%;
 
 }
 .apresentacao__conteudo{
@@ -66,7 +66,7 @@
 }
 body{
     background-color: black; /*  */
-    height: 100vh;
+    /* height: 100vh; */
     box-sizing: border-box;
     color: #f6f6f6;
 }
@@ -78,4 +78,26 @@ body{
 
 .apresentacao__links__link:hover{
     background-color: #272727;
+}
+
+.rodape{
+    color: black;
+    background-color: #22D4FD;
+    padding:24px;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    
+}
+
+.cabecalho{
+
+}
+.cabecalho__menu{
+
+}
+.cabecalho__menu__links{
+
+    
 }
