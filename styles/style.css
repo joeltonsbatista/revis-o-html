@@ -8,7 +8,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 8% 16%;
+    padding: 5% 16%;
 
 }
 .apresentacao__conteudo{
@@ -92,12 +92,19 @@ body{
 }
 
 .cabecalho{
+    
+    padding: 2% 0 0 15% ;
 
 }
 .cabecalho__menu{
+    display: flex ;
+    gap:80px;
 
 }
 .cabecalho__menu__links{
-
-    
+    font-family:"Montserrat", sans-serif;
+    font-size: 24px;
+    font-weight:600;
+    color:#22D4FD;
+    text-decoration: none;
 }
