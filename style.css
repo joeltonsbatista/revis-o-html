@@ -11,9 +11,13 @@
     margin: 10% 16%;
 
 }
+
+.apresentacao__imagem{
+    width: 50%;
+}
 .apresentacao__conteudo{
     display:flex;
-    width: 615px;
+    width: 50%;
     flex-direction: column;
     gap: 40px;
     
@@ -48,7 +52,7 @@
 .apresentacao__links__link{
     /* background-color: #22D4FD; */
     border:2px solid #22D4FD;
-    width: 378px;
+    width: 50%;
     text-align: center;
     border-radius: 8px;
     font-size: 1.5rem;
